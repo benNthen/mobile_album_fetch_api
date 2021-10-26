@@ -33,7 +33,13 @@ To use this repository you need the following:
  
  Select one of the albums listed.
  
- A pop-up will appear showing 50 thumbnail photos arranged in a tile-like grid.
+ A pop-up will appear showing a total of 50 thumbnail photos arranged in a tile-like grid. You can scroll up and down. 
  
+ ![fetchapi](https://user-images.githubusercontent.com/53241776/138899575-c7911cc1-422f-40ec-ac03-fe653e3af4ad.jpg)
  
+ If you select one of the thumbnail photos, another pop-up will appear showing an full-sized version of that photo.
+ 
+ ![fetchapi2](https://user-images.githubusercontent.com/53241776/138899742-7da24f8d-282b-4e26-a9e4-4711e4c317b5.jpg)
+ 
+
  
