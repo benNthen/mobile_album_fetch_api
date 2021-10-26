@@ -17,7 +17,8 @@ To use this repository you need the following:
  - [npm - a JavaScript package manager](https://www.npmjs.com/package/npm)
  - [Axios](https://www.npmjs.com/package/axios) 
  
- ### How to Run:
+ ## How to Run:
+ -----------
  
  Create a mobile emulator / virtual environment through Android Studio's AVD Manager. Follow the documentation [here](https://developer.android.com/studio/intro/update#sdk-manager).
  
@@ -29,7 +30,8 @@ To use this repository you need the following:
  
  Open the app's project folder in Visual Studio Code and type in the command terminal `npx react-native run-android`.
  
- ### How to Use:
+ ## How to Use:
+ -----------
  
  Select one of the albums listed.
  
