@@ -1,5 +1,5 @@
 # Mobile Album Fetch API
-An android mobile app that retrieves data about albums, users and photos through an API and displays them on the screen.
+An android mobile app that retrieves data about album titles, name of their owners/users and photos stored in each album through an API and displays them on the screen.
 
 ## Using this repository
 You can run the app on your local computer and/or by connecting your android mobile phone. The following pre-requisites are needed in order for the app to run. 
@@ -33,11 +33,11 @@ To use this repository you need the following:
  
  Select one of the albums listed.
  
- A pop-up will appear showing a total of 50 thumbnail photos arranged in a tile-like grid. You can scroll up and down. 
+ A pop-up will appear showing a total of 50 thumbnail photos belonging to that album and are arranged in a tile-like grid. You can scroll up and down. 
  
  ![fetchapi](https://user-images.githubusercontent.com/53241776/138899575-c7911cc1-422f-40ec-ac03-fe653e3af4ad.jpg)
  
- If you select one of the thumbnail photos, another pop-up will appear showing an full-sized version of that photo.
+ If you select one of the thumbnail photos, another pop-up will appear to show its full-sized version.
  
  ![fetchapi2](https://user-images.githubusercontent.com/53241776/138899742-7da24f8d-282b-4e26-a9e4-4711e4c317b5.jpg)
  
