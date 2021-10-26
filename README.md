@@ -6,7 +6,7 @@ You can run the app on your local computer and/or by connecting your android mob
 For more information on how to run a React Native app, [go here](https://reactnative.dev/docs/environment-setup).
 
 ## Pre-requisites:
------------
+
 To use this repository you need the following:
  - Windows 10 / macOS 10  or higher
  - Visual Studio Code
@@ -18,7 +18,6 @@ To use this repository you need the following:
  - [Axios](https://www.npmjs.com/package/axios) 
  
  ## How to Run:
- -----------
  
  Create a mobile emulator / virtual environment through Android Studio's AVD Manager. Follow the documentation [here](https://developer.android.com/studio/intro/update#sdk-manager).
  
@@ -31,7 +30,6 @@ To use this repository you need the following:
  Open the app's project folder in Visual Studio Code and type in the command terminal `npx react-native run-android`.
  
  ## How to Use:
- -----------
  
  Select one of the albums listed.
  
