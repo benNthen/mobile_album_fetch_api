@@ -43,6 +43,8 @@ To use this repository you need the following:
  
  ## Software Architecture
  
+ Below is the architecture of the mobile app. It details how it communicates with the Typicode JSONPlaceholder's server to gather data.
+ 
  <img width="461" alt="Mobile Album Fetch API Architecture" src="https://user-images.githubusercontent.com/53241776/138982145-dc63203b-7a56-4121-ba29-96c7fb9ccd6c.png">
 
  
