@@ -41,5 +41,10 @@ To use this repository you need the following:
  
  ![fetchapi2](https://user-images.githubusercontent.com/53241776/138899742-7da24f8d-282b-4e26-a9e4-4711e4c317b5.jpg)
  
+ ## Software Architecture
+ 
+ <img width="461" alt="Mobile Album Fetch API Architecture" src="https://user-images.githubusercontent.com/53241776/138982145-dc63203b-7a56-4121-ba29-96c7fb9ccd6c.png">
+
+ 
 
  
