@@ -1,3 +1,12 @@
+/** @license React v0.66
+ * App.js
+ *
+ * Copyright (c) Benedict Velasco, , Auckland, New Zealand
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
 import React from 'react';
 import axios from 'axios';
 import {
@@ -10,11 +19,13 @@ import {
   Modal,
   FlatList,
 } from 'react-native';
+
 import cover from './music_cd.png';
 
 
 class App extends React.Component{
 
+  // Initialises the states to be used
   constructor(){
     super();
     this.state = {
@@ -30,6 +41,7 @@ class App extends React.Component{
 
   }
 
+  // Function that gets the data from the API endpoints
   componentDidMount() {
     axios.get('https://jsonplaceholder.typicode.com/photos?_page=1&_limit=50')
     .then(resp => resp.data)
@@ -58,6 +70,7 @@ class App extends React.Component{
                     {this.state.users.map(user => {
                       if (user.id === album.userId){
                         return (
+                          // Displays the Album List
                           <TouchableOpacity onPress={() => {this.setState({modalOneshow:true})}}>
                             <Image source={cover} style={{width:200, height:100}} />
                             <Text>Title: "{album.title}"</Text>
@@ -70,7 +83,7 @@ class App extends React.Component{
                                 return null;
                               }
                             })}
-                            <Modal
+                            <Modal // Displays a pop-up grid-gallery of thumbnail photos
                               transparent={true}
                               visible={this.state.modalOneshow}
                             >
@@ -82,7 +95,7 @@ class App extends React.Component{
                                 keyExtractor = {item => item.id}
                                 renderItem={({ item }) => {
                                   if (item.albumId){
-                                    return (
+                                    return ( 
                                       <View style={{ flex: 1}}>
                                       <TouchableOpacity onPress={() => {this.setState({ modalTwoshow:true, image:item.url, id:item.albumId})}}>
                                       <Image
@@ -107,7 +120,7 @@ class App extends React.Component{
                                 />
                               </View>
                             </Modal>
-                            <Modal
+                            <Modal // Displays a second pop-up with the full-sized photo
                               transparent={true}
                               visible={this.state.modalTwoshow}
                             >
