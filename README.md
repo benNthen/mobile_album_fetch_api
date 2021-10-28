@@ -32,6 +32,8 @@ To use this repository you need the following:
  ## How to Use:
  
  Select one of the albums listed.
+ ![image](https://user-images.githubusercontent.com/53241776/139165266-d187c845-c601-4762-9d33-8fc6ef29338c.png)
+
  
  A pop-up will appear showing a total of 50 thumbnail photos belonging to that album and are arranged in a tile-like grid. You can scroll up and down. 
  
