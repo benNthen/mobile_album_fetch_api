@@ -12,10 +12,12 @@ To use this repository you need the following:
  - Windows 10 / macOS 10  or higher
  - Visual Studio Code
  - [Android Studio](https://developer.android.com/studio)
+
+In addition, these packages need to be installed:
+ - [npm - a JavaScript package manager](https://www.npmjs.com/package/npm)
+ - [Node Js](https://nodejs.org/en/)
  - [React JS](https://reactjs.org/)
  - [React Native](https://reactnative.dev/)
- - [Node Js](https://nodejs.org/en/)
- - [npm - a JavaScript package manager](https://www.npmjs.com/package/npm)
  - [Axios](https://www.npmjs.com/package/axios) 
  
  ## How to Run:
