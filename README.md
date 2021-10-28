@@ -22,7 +22,7 @@ In addition, these packages need to be installed:
  
  ## How to Run:
  
- Create a mobile emulator / virtual environment through Android Studio's AVD Manager. Follow the documentation [here](https://developer.android.com/studio/intro/update#sdk-manager).
+ Follow the documentation [here](https://developer.android.com/studio/intro/update#sdk-manager) in order to create a mobile emulator / virtual environment through Android   Studio's AVD Manager.
  
  Open the command line and type ` C:\Users\<your-user-name-here>\AppData\Local\Android\Sdk\emulator)`
  
