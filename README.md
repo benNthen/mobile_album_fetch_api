@@ -2,9 +2,10 @@
 An android mobile app that retrieves data from an online API and returns a list of photo albums with their title and owner names. Selecting an album will display a galler of thumbnail-sized photos. Tapping one of these photos, will display a full-sized version of the photo. This was developed using React Native.
 
 ## Using this repository
-You can run the app on your local computer and/or by connecting your android mobile phone. The following pre-requisites are needed in order for the app to run. 
+You can run the app on your local computer and/or by connecting your android mobile phone. 
 For more information on how to run a React Native app, [go here](https://reactnative.dev/docs/environment-setup).
 
+The following pre-requisites are listed below.
 ## Pre-requisites:
 
 To use this repository you need the following:
