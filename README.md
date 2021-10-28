@@ -32,13 +32,15 @@ To use this repository you need the following:
  ## How to Use:
  
  Select one of the albums listed.
+ 
  ![image](https://user-images.githubusercontent.com/53241776/139165266-d187c845-c601-4762-9d33-8fc6ef29338c.png)
 
+ A pop-up will appear showing a gallery of thumbnail photos belonging to that album. You can scrolls across the screen.
  
- A pop-up will appear showing a total of 50 thumbnail photos belonging to that album and are arranged in a tile-like grid. You can scroll up and down. 
  ![image](https://user-images.githubusercontent.com/53241776/139166014-8a157cb2-0791-459a-a2ad-91dfd2e471cd.png)
  
  If you select one of the thumbnail photos, another pop-up will appear to show its full-sized version.
+ 
  ![image](https://user-images.githubusercontent.com/53241776/139166067-3f470c18-a400-4343-8fce-f2ddede2f714.png)
  
  ## Software Architecture
