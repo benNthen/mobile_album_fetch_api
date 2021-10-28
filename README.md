@@ -1,5 +1,5 @@
 # Mobile Album Fetch API
-An android mobile app that retrieves data about album titles, name of their owners/users and photos stored in each album through an API and displays them on the screen.
+An android mobile app that retrieves data from an online API and returns a list of photo albums with their title and owner names. Selecting an album will display a galler of thumbnail-sized photos. Tapping one of these photos, will display a full-sized version of the photo. This was developed using React Native.
 
 ## Using this repository
 You can run the app on your local computer and/or by connecting your android mobile phone. The following pre-requisites are needed in order for the app to run. 
@@ -11,9 +11,9 @@ To use this repository you need the following:
  - Windows 10 / macOS 10  or higher
  - Visual Studio Code
  - [Android Studio](https://developer.android.com/studio)
- - [React Library](https://reactjs.org/)
+ - [React JS](https://reactjs.org/)
  - [React Native](https://reactnative.dev/)
- - [NodeJs](https://nodejs.org/en/)
+ - [Node Js](https://nodejs.org/en/)
  - [npm - a JavaScript package manager](https://www.npmjs.com/package/npm)
  - [Axios](https://www.npmjs.com/package/axios) 
  
@@ -45,7 +45,7 @@ To use this repository you need the following:
  
  ## Software Architecture
  
- Below is the architecture of the mobile app. It details how it communicates with the Typicode JSONPlaceholder's server to gather data.
+ Below is the architecture of the mobile app. It details how it communicates with the Typicode JSONPlaceholder's server to gather data and displays them on the app.
  
  <img width="461" alt="Mobile Album Fetch API Architecture" src="https://user-images.githubusercontent.com/53241776/138982145-dc63203b-7a56-4121-ba29-96c7fb9ccd6c.png">
 
